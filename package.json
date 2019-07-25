@@ -78,12 +78,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sarbbottam/eslint-find-rules.git"
+    "url": "https://github.com/xotic750/eslint-find-rules.git"
   },
   "bugs": {
-    "url": "https://github.com/sarbbottam/eslint-find-rules/issues"
+    "url": "https://github.com/xotic750/eslint-find-rules/issues"
   },
-  "homepage": "https://github.com/sarbbottam/eslint-find-rules#readme",
+  "homepage": "https://github.com/xotic750/eslint-find-rules#readme",
   "xo": {
     "envs": [
       "mocha"
