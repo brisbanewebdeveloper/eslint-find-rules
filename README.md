@@ -5,10 +5,10 @@
 Use this for your own [ESLint](http://eslint.org/) [shareable configuration](http://eslint.org/docs/developer-guide/shareable-configs)
 to list current configured rules, all-available rules, unused rules, and plugin rules.
 
-[![Build Status](https://img.shields.io/travis/sarbbottam/eslint-find-rules.svg?style=flat-square)](https://travis-ci.org/sarbbottam/eslint-find-rules)
-[![Code Coverage](https://img.shields.io/codecov/c/github/sarbbottam/eslint-find-rules.svg?style=flat-square)](https://codecov.io/github/sarbbottam/eslint-find-rules)
-[![version](https://img.shields.io/npm/v/eslint-find-rules.svg?style=flat-square)](http://npm.im/eslint-find-rules)
-[![downloads](https://img.shields.io/npm/dm/eslint-find-rules.svg?style=flat-square)](http://npm-stat.com/charts.html?package=eslint-find-rules&from=2015-08-01)
+[![Build Status](https://img.shields.io/travis/sarbbottam/eslint-find-rules.svg?style=flat-square)](https://travis-ci.org/xotic750/eslint-find-rules)
+[![Code Coverage](https://img.shields.io/codecov/c/github/sarbbottam/eslint-find-rules.svg?style=flat-square)](https://codecov.io/github/xotic750/eslint-find-rules)
+[![version](https://img.shields.io/npm/v/eslint-find-rules.svg?style=flat-square)](http://npm.im/@xotic750/eslint-find-rules)
+[![downloads](https://img.shields.io/npm/dm/eslint-find-rules.svg?style=flat-square)](http://npm-stat.com/charts.html?package=xotic750/eslint-find-rules&from=2019-07-01)
 [![MIT License](https://img.shields.io/npm/l/eslint-find-rules.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
