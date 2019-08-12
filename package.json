@@ -6,7 +6,7 @@
   "scripts": {
     "cover": "nyc --reporter=lcov --reporter=text --reporter=html npm test",
     "lint": "eslint --ext .js,.json .",
-    "test": "mocha --recursive",
+    "test": "mocha --recursive  --timeout 5000",
     "update-contributors": "all-contributors generate",
     "commit": "git-cz",
     "validate": "npm-run-all --parallel lint cover --sequential check-coverage",
