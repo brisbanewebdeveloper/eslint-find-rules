@@ -32,5 +32,3 @@ matrix:
       env: ESLINT=4 AJV=5
     - node_js: "6"
       env: ESLINT=3
-    - node_js: "4"
-      env: ESLINT=4 AJV=5
