@@ -20,15 +20,7 @@ env:
   matrix:
     - ESLINT=6
     - ESLINT=5 AJV=6
-    - ESLINT=4 AJV=5
-    - ESLINT=3
 matrix:
   include:
     - node_js: "node"
       env: LINTONLY=true
-    - node_js: "6"
-      env: ESLINT=5 AJV=5
-    - node_js: "6"
-      env: ESLINT=4 AJV=5
-    - node_js: "6"
-      env: ESLINT=3
