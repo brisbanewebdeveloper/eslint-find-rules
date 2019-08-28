@@ -6,7 +6,7 @@
   "scripts": {
     "cover": "nyc --reporter=lcov --reporter=text --reporter=html npm test",
     "lint": "eslint --ext .js,.json .",
-    "test": "mocha --recursive --timeout 7000",
+    "test": "mocha --recursive --timeout 10000",
     "update-contributors": "all-contributors generate",
     "commit": "git-cz",
     "validate": "npm-run-all --parallel lint cover --sequential check-coverage",
@@ -71,6 +71,10 @@
   },
   "peerDependencies": {
     "eslint": "^5 || ^6"
+  },
+  "engines": {
+    "node": ">=8.11.4",
+    "npm": "6.10.1"
   },
   "nyc": {
     "exclude": [
