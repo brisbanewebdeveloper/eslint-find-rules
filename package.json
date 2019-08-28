@@ -6,7 +6,7 @@
   "scripts": {
     "cover": "nyc --reporter=lcov --reporter=text --reporter=html npm test",
     "lint": "eslint --ext .js,.json .",
-    "test": "mocha --recursive  --timeout 5000",
+    "test": "mocha --recursive --timeout 7000",
     "update-contributors": "all-contributors generate",
     "commit": "git-cz",
     "validate": "npm-run-all --parallel lint cover --sequential check-coverage",
@@ -48,7 +48,7 @@
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/runtime": "^7.5.5",
-    "ajv": "^5 || ^6",
+    "ajv": "^6",
     "all-contributors-cli": "^6.8.1",
     "babel-core": "^7.0.0-0",
     "babel-eslint": "^10.0.3",
@@ -56,7 +56,7 @@
     "codecov": "^3.5.0",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
-    "eslint": "^3.12.0 || ^4 || ^5 || ^6",
+    "eslint": "^5 || ^6",
     "eslint-plugin-json": "^1.4.0",
     "ghooks": "^2.0.4",
     "mocha": "^6.2.0",
@@ -70,7 +70,8 @@
     "validate-commit-msg": "^2.14.0"
   },
   "peerDependencies": {
-    "eslint": "^3.12.0 || ^4 || ^5 || ^6"
+    "ajv": "^6",
+    "eslint": "^5 || ^6"
   },
   "nyc": {
     "exclude": [
